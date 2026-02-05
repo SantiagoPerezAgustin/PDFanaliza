@@ -1,0 +1,20 @@
+# ========== Backend (API) - secretos y build ==========
+PdfAnalyzer.Api/**/bin/
+PdfAnalyzer.Api/**/obj/
+PdfAnalyzer.Api/**/.vs/
+PdfAnalyzer.Api/**/*.user
+PdfAnalyzer.Api/**/appsettings.Development.json
+PdfAnalyzer.Api/**/appsettings.Local.json
+PdfAnalyzer.Api/**/appsettings.Secrets.json
+**/launchSettings.json
+
+# ========== Frontend - env y build ==========
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+Frontend/.env.*
+Frontend/.env/.env
+
+# ========== General ==========
+.DS_Store
+*.log
